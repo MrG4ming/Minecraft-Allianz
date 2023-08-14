@@ -1,0 +1,20 @@
+name: Allianz
+version: '${project.version}'
+main: tv.hecki.Allianz
+api-version: 1.20
+prefix: Allianz
+authors: [MrG4ming]
+description: Die Stimmen werden immer lauter!
+website: hecki.tv
+
+commands:
+   editmsg:
+      description: Edit the Messages of the Server.
+      permission: allianz.op
+      usage: /editmsg [join|quit] <message>
+
+
+permissions:
+   allianz.op:
+      description: Just an Indicator if for operators.
+      default: op
